@@ -1,0 +1,55 @@
+
+a {
+    text-decoration: none;
+}
+/*正常的未被访问过的链接*/
+a:link {
+    text-decoration: none;
+}
+/*已经访问过的链接*/
+a:visited {
+    text-decoration: none;
+}
+/*鼠标划过(停留)的链接*/
+a:hover {
+    text-decoration: none;
+}
+/* 正在点击的链接，鼠标在元素上按下还没有松开*/
+a:active {
+    text-decoration: none;
+}
+/* 获得焦点的时候 鼠标松开时显示的颜色*/
+a:focus {
+    text-decoration: none;
+}
+
+.col-md-3{
+	margin-top: 50px;
+	text-align: center;
+	font-size: 60px;
+}
+
+.gugu{
+	color: rgb(6,128,67);
+	text-shadow: 3px 3px 3px rgb(203,203,203);
+}
+
+.nav{
+	text-align: center;
+	font-size: 35px;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.nav-text{
+	color: black;
+	text-shadow: 3px 3px 3px rgb(203,203,203);
+}
+
+.nav-text:hover{
+	color: cadetblue;
+}
+
+#jieshu{
+	height: 100px;
+}
